@@ -70,6 +70,7 @@ public class Main {
         }
     }
 }
+//Custom exception created
 class TsunamiException extends Exception{
     public TsunamiException(String message){
         super(message);
